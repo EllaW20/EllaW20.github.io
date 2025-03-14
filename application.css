@@ -3,26 +3,44 @@
  @import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
 }
+ body, p
+      {
+            font-family: 'Didact Gothic', sans-serif;
+            color: #333;
+            text-align: center;
+        }
 
-.emilys-candy {
-    font-family: 'Emilys Candy', cursive;
-}
+        h1, h2, h3
+      {
+            font-family: 'Emilys Candy', cursive;
+            color: #ff4081;
+        }
 
-.didact-gothic {
-    font-family: 'Didact Gothic', sans-serif;
-}
+        iframe {
+            display: block;
+            margin: 20px auto;
+            border: none;
+        }
 
+        ul 
+        {
+             font-family: 'Didact Gothic', sans-serif;
+        }
+
+        li 
+       {
+            font-family: 'Didact Gothic', sans-serif;
+        }
+
+        img {
+            width: 100px;
+            height: auto;
+            display: block;
+            margin: 10px auto;
+        }
+{
   background-color: pink;
 }
   
-h1, h2, h3,
-  {
-    font-family: "Emilys Candy";
-    color: green;
-  }
-p, li
-  {
-     font-family: "Didact Gothic";
-    color: gold;
-  }
+
   
