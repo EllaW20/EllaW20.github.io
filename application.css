@@ -1,16 +1,18 @@
 :root
-{
+@font-face {
+ @import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+}
+
+.emilys-candy {
+    font-family: 'Emilys Candy', cursive;
+}
+
+.didact-gothic {
+    font-family: 'Didact Gothic', sans-serif;
+}
+
   background-color: pink;
-}
-.emilys-candy-regular {
-  font-family: "Emilys Candy", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-  .didact-gothic-regular {
-  font-family: "Didact Gothic", sans-serif;
-  font-weight: 400;
-  font-style: normal;
 }
   
 h1, h2, h3,
