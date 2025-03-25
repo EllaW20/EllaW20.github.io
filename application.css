@@ -1,5 +1,14 @@
-:root
 @import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&family=Didact+Gothic&display=swap');
+:root{
+    --main-color: #662d91;
+    --heading-color: #ff4081;
+    --font-body: 'Didact Gothic', sans-serif;
+    --font-heading: 'Emilys Candy', cursive;
+}
+
+body {
+    background-color: #ffc0cb;
+}
 
 body, p {
     font-family: 'Didact Gothic', sans-serif;
