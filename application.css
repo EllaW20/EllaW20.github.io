@@ -2,15 +2,13 @@
 @font-face {
  @import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
-}
-{
-color: #ffb6c1; 
-}
+
  body, p
       {
             font-family: 'Didact Gothic', sans-serif;
-            color: #cbc3e3;
+            color: #800080;
             text-align: center;
+            background-color: #ffb6c1; 
         }
 
         h1, h2, h3
@@ -37,7 +35,7 @@ color: #ffb6c1;
 
         img {
             width: 100px;
-            height: auto;
+            height: 100px;
             display: block;
             margin: 10px auto;
         }
