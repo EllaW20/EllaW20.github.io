@@ -5,7 +5,6 @@ body, p {
     font-family: 'Didact Gothic', sans-serif;
     color: #662d91;
     text-align: center;
-    background-color: #ffc0cb; 
  
 }
 
@@ -34,7 +33,7 @@ li {
 
 img {
     width: 100px;
-    height: 100px;
+    height: auto;
     margin: 10px auto;
 }
 
