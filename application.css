@@ -1,36 +1,43 @@
 :root
-@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&family=Didact+Gothic&display=swap');
 
 body, p {
     font-family: 'Didact Gothic', sans-serif;
     color: #662d91;
     text-align: center;
     background-color: #ffc0cb; 
+    margin: 0;
+    padding: 0;
 }
-
 
 h1, h2, h3 {
     font-family: 'Emilys Candy', cursive;
     color: #ff4081;
 }
 
-
 iframe {
     display: block;
     margin: 20px auto;
     border: none;
+    max-width: 100%;
+    height: auto;
 }
 
+ul {
+    list-style-type: none;
+    padding: 0;
+}
 
-ul, li {
+li {
     font-family: 'Didact Gothic', sans-serif;
+    font-size: 18px;
+    margin: 10px 0;
 }
-
 
 img {
     width: 100px;
-    height: 100px;
+    height: auto;
     display: block;
     margin: 10px auto;
 }
+
