@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Bonbon&family=Didact+Gothic&display=swap');
+:root{
+    --main-color: #662d91;
+    --heading-color: #ff4081;
+    --font-body: 'Didact Gothic', sans-serif;
+    --font-heading: 'Bonbon', cursive;
+}
+
+body {
+    background-color: #ffc0cb;
+   background-image: url("images/dragon.png");
+}
+
+body, p {
+    font-family: 'Didact Gothic', sans-serif;
+    color: #662d91;
+    text-align: center;
+ 
+}
+
+h1, h2, h3 {
+    font-family: 'Bonbon', cursive;
+    color: #ff4081;
+}
+
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 18px;
+ 
+}
+
+img {
+    width: 200px;
+    height: auto;
+    margin: 30px auto;
+}
