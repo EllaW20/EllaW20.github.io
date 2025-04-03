@@ -16,11 +16,7 @@ body {
 body, p {
     font-family: 'Didact Gothic', sans-serif;
     color: #160d54;
-    text-align: center;
-    width: 300px;
-    border: 15px solid white;
-    padding: 50px;
-    margin: 20px;
+    text-align: center; width: 200px; border: 15px solid white;
  
 }
 
