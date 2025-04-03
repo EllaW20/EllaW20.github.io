@@ -10,9 +10,10 @@ body {
     background-color: #cbc3e3;
    background-image: url("https://ellaw20.github.io/images/stars.avif");
     background-repeat: repeat-2;
+    text-align: center; 
 }
 
- p {
+p {
     font-family: 'Didact Gothic', sans-serif;
     color: #160d54;
     text-align: center; 
@@ -33,11 +34,19 @@ h1, h2, h3 {
 ul {
     list-style-type: none;
     padding: 0;
+    text-align: center; 
+  display: inline-block; 
+  border: 2px solid white; 
+  padding: 5px; 
 }
 
 li {
     font-family: 'Didact Gothic', sans-serif;
     font-size: 18px;
+    text-align: center; 
+  display: inline-block; 
+  border: 2px solid white; 
+  padding: 5px; 
  
 }
 
