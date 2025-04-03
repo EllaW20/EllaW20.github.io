@@ -15,12 +15,13 @@ body {
 }
 
 body, p {
-  font-family: 'Bonbon', cursive;
+  font-family: 'Didact Gothic', sans-serif;
   color: #160d54
     
 }
 
 h1, h2, h3 {
+    font-family: 'Bonbon', cursive;
     font-family: 'Didact Gothic', sans-serif;
     color: #fd9dd9;
     text-decoration: underline;
