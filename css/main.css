@@ -9,7 +9,7 @@
 body {
     background-color: #cbc3e3;
    background-image: url("https://ellaw20.github.io/images/stars.avif");
-    opacity: 0.6;
+
     background-repeat: repeat-2;
 }
 
@@ -17,6 +17,10 @@ body, p {
     font-family: 'Didact Gothic', sans-serif;
     color: #160d54;
     text-align: center;
+    width: 300px;
+    border: 15px solid white;
+    padding: 50px;
+    margin: 20px;
  
 }
 
@@ -43,4 +47,5 @@ img {
     width: 200px;
     height: auto;
     margin: 30px auto;
+    opacity: 0.6;
 }
