@@ -9,14 +9,16 @@
 body {
     background-color: #cbc3e3;
    background-image: url("https://ellaw20.github.io/images/stars.avif");
-
     background-repeat: repeat-2;
 }
 
 body, p {
     font-family: 'Didact Gothic', sans-serif;
     color: #160d54;
-    text-align: center; width: 200px; border: 15px solid white;
+    text-align: center; 
+  display: inline-block; 
+  border: 2px solid white; 
+  padding: 5px; 
  
 }
 
