@@ -9,7 +9,7 @@
 body {
     background-color: #cbc3e3;
    background-image: url("https://ellaw20.github.io/images/stars.avif");
-    background-repeat: repeat-2;
+    background-repeat: repeat;
     text-align: center; 
 }
 
@@ -27,6 +27,7 @@ h1, h2, h3 {
     font-family: 'Bonbon', cursive;
     color: #f741b2;
     text-decoration: underline;
+     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 
@@ -54,5 +55,11 @@ img {
     width: 200px;
     height: auto;
     margin: 30px auto;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+img:hover {
     opacity: 0.6;
 }
+
