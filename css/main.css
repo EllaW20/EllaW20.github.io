@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bonbon&family=Didact+Gothic&display=swap');
 :root{
-    --main-color: #160d54;
+    --main-color: #aa336a;
     --heading-color: #fd9dd9;
     --font-body: 'Didact Gothic', sans-serif;
     --font-heading: 'Bonbon', cursive;
@@ -22,7 +22,7 @@ body, p {
 
 h1, h2, h3 {
     font-family: 'Bonbon', cursive;
-    color: #fd9dd9;
+    color: #aa336a;
     text-decoration: underline;
     
 }
