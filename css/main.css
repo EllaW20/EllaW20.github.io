@@ -12,7 +12,7 @@ body {
     background-repeat: repeat-2;
 }
 
-body, p {
+ p {
     font-family: 'Didact Gothic', sans-serif;
     color: #160d54;
     text-align: center; 
