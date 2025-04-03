@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bonbon&family=Didact+Gothic&display=swap');
 :root{
-    --main-color: #056468;
-    --heading-color: #ff4081;
+    --main-color: #160d54;
+    --heading-color: #f741b2;
     --font-body: 'Didact Gothic', sans-serif;
     --font-heading: 'Bonbon', cursive;
 }
@@ -9,19 +9,21 @@
 body {
     background-color: #cbc3e3;
    background-image: url("https://ellaw20.github.io/images/stars.avif");
-    background-repeat: repeat-x;
+    opacity: 0.6;
+    background-repeat: repeat-2;
 }
 
 body, p {
     font-family: 'Didact Gothic', sans-serif;
-    color: #056468;
+    color: #160d54;
     text-align: center;
  
 }
 
 h1, h2, h3 {
     font-family: 'Bonbon', cursive;
-    color: #ff4081;
+    color: #f741b2;
+    text-decoration: underline;
 }
 
 
