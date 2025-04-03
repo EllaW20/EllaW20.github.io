@@ -13,13 +13,10 @@ body {
     text-align: center; 
 }
 
-p {
+body, p {
     font-family: 'Didact Gothic', sans-serif;
     color: #160d54;
     text-align: center; 
-  display: inline-block; 
-  border: 2px solid white; 
-  padding: 5px; 
  
 }
 
@@ -35,7 +32,6 @@ h1, h2, h3 {
 ul {
     list-style-type: none;
     padding: 0;
-    text-align: center; 
   display: inline-block; 
   border: 2px solid white; 
   padding: 5px; 
@@ -44,7 +40,6 @@ ul {
 li {
     font-family: 'Didact Gothic', sans-serif;
     font-size: 18px;
-    text-align: center; 
   display: inline-block; 
   border: 2px solid white; 
   padding: 5px; 
