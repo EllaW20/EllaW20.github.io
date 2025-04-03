@@ -17,12 +17,14 @@ body {
 body, p {
   font-family: 'Didact Gothic', sans-serif;
   color: #160d54
+font-size: 19px;
     
 }
 
 h1, h2, h3 {
     font-family: 'Bonbon', cursive;
     color: #aa336a;
+    font-size: 25px;
     text-decoration: underline;
     
 }
