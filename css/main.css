@@ -8,53 +8,54 @@
 
 body {
     background-color: #cbc3e3;
-   background-image: url("https://ellaw20.github.io/images/stars.avif");
+    background-image: url("https://ellaw20.github.io/images/stars.avif");
     background-repeat: repeat;
-    text-align: center; 
-}
-
-body, p {
-    font-family: 'Didact Gothic', sans-serif;
-    color: #160d54;
-    text-align: center; 
- 
+    background-size: cover;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 h1, h2, h3 {
-    font-family: 'Bonbon', cursive;
-    color: #fd9dd9;
+    font-family: var(--font-heading);
+    color: var(--heading-color);
     text-decoration: underline;
-     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    letter-spacing: 1px;
 }
 
-
-
 ul {
-    list-style-type: none;
-    padding: 0;
-  display: inline-block; 
-  border: 2px solid white; 
-  padding: 5px; 
+    list-style: none;
+    padding: 10px;
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.2); /* Adds a soft translucent background */
 }
 
 li {
-    font-family: 'Didact Gothic', sans-serif;
+    font-family: var(--font-body);
     font-size: 18px;
-  display: inline-block; 
-  border: 2px solid white; 
-  padding: 5px; 
- 
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.3);
 }
 
 img {
     width: 200px;
     height: auto;
     margin: 30px auto;
+    display: block;
     opacity: 1;
-    transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
 img:hover {
     opacity: 0.6;
+    transform: scale(1.1);
 }
+
 
