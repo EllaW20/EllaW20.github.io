@@ -1,14 +1,15 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&family=Quicksand&display=swap');
 :root{
     --main-color: #aa336a;
     --heading-color: #fd9dd9;
     --font-body: "Quicksand", sans-serif;
+    --font-heading: "Playwrite DE Grund", cursive;
 }
 
 body
 {
-    background-color: #77dd77;
+    background-color: #B2AC88;
 }
 *
 {
@@ -18,26 +19,23 @@ body
 h1
 {
     font-size: 18pt;
-    font-family: 'Quicksand';
+    font-family: 'Playwrite DE Grund';
 }
 h2
 {
     font-size: 28pt;
-    font-family: 'Quicksand';
+    font-family: 'Playwrite DE Grund';
 }
-nav
-{
-    font-family: 'Quicksand';
-}
+
 #top
 {
-    border: 16px var(--white) dashed;
+    border: 16px white dashed;
     margin: 8vw;
     margin-top: 5px;
 }
 section
 {
-    border: 5px var(--white) dashed;
+    border: 5px white dashed;
     margin: 18vw;
     margin-top: 10px;
     margin-bottom: 20px;
@@ -57,4 +55,10 @@ ul
 {
     list-style: none;
     padding-left: 0px;
+}
+
+img {
+    width: 100px;
+    height: auto;
+    margin: 10px auto;
 }
