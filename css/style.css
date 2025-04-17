@@ -1,8 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&family=Quicksand&display=swap');
 :root{
-    --main-color: #aa336a;
-    --heading-color: #fd9dd9;
     --font-body: "Quicksand", sans-serif;
     --font-heading: "Playwrite DE Grund", cursive;
 }
@@ -29,6 +27,7 @@ h2
 li {
     font-family: 'Quicksand', sans-serif;
     font-size: 15px;
+    color: #6A89A7;
  
 }
 
@@ -36,26 +35,27 @@ li {
 
 #top
 {
-    border: 9px solid;
+    border: 5px solid;
     margin: 8vw;
     margin-top: 5px;
+    color: #FFF1E7;
 }
 section
 {
-    border: 5px white dashed;
+    border: 5px #FFF1E7 dashed;
     margin: 18vw;
     margin-top: 10px;
     margin-bottom: 20px;
 }
 .date
 {
-    color: white;
+    color: #FFF1E7;
     white-space: nowrap;
 }
 
 .date strong
 {
-    color: white;
+    color: #FFF1E7;
     white-space: nowrap;
 }
 ul
