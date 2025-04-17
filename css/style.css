@@ -31,7 +31,7 @@ h2 {
     margin-bottom: 10px;
 }
 
-/* This was missing a bracket! */
+
 li {
     font-family: var(--font-body);
     font-size: 15px;
@@ -55,12 +55,12 @@ section {
 }
 
 .date {
-    color: #FFF1E7;
+    color: gold;
     white-space: nowrap;
 }
 
 .date strong {
-    color: #FFF1E7;
+    color: gold;
 }
 
 ul {
