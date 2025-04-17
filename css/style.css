@@ -9,7 +9,7 @@
 
 body
 {
-    background-color: #B2AC88;
+    background-color: #98A869;
 }
 *
 {
@@ -25,11 +25,18 @@ h2
 {
     font-size: 28pt;
     font-family: 'Playwrite DE Grund';
+    
+li {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+ 
+}
+
 }
 
 #top
 {
-    border: 16px white dashed;
+    border: 9px solid;
     margin: 8vw;
     margin-top: 5px;
 }
@@ -42,13 +49,13 @@ section
 }
 .date
 {
-    color: #91bad6;
+    color: white;
     white-space: nowrap;
 }
 
 .date strong
 {
-    color: #91bad6;
+    color: white;
     white-space: nowrap;
 }
 ul
@@ -58,7 +65,7 @@ ul
 }
 
 img {
-    width: 100px;
+    width: 300px;
     height: auto;
     margin: 10px auto;
 }
