@@ -10,6 +10,7 @@
         padding: 0;
         font-family: 'Arial', sans-serif;
         background-color: #f5f5f5;
+        overflow-x: hidden; 
       }
 
       h1 {
@@ -17,6 +18,7 @@
         text-decoration: underline;
         color: gold;
         margin-top: 20px;
+        font-size: 24px;
       }
 
       .content {
@@ -36,12 +38,21 @@
       .superhero h2 {
         color: #333;
         font-size: 24px;
+        margin-bottom: 10px;
       }
 
       .superhero img {
         max-width: 100%;
         height: auto;
         border-radius: 8px;
+        margin-bottom: 10px;
+      }
+
+      .superhero p {
+        font-size: 16px;
+        line-height: 1.5;
+        color: #333;
+        margin: 5px 0;
       }
 
       ul {
@@ -52,12 +63,6 @@
       ul li {
         padding: 5px 0;
         color: #555;
-      }
-
-      .superhero p {
-        font-size: 16px;
-        line-height: 1.5;
-        color: #333;
       }
 
       @media (min-width: 600px) {
@@ -79,6 +84,29 @@
 
         .superhero ul {
           padding-left: 20px;
+        }
+      }
+
+      @media (max-width: 599px) {
+        h1 {
+          font-size: 20px;
+        }
+
+        .superhero img {
+          width: 100%; 
+          margin-bottom: 10px;
+        }
+
+        .superhero h2 {
+          font-size: 22px;
+        }
+
+        .superhero .info {
+          padding-top: 10px;
+        }
+
+        .superhero p, .superhero ul {
+          font-size: 14px;
         }
       }
     </style>
