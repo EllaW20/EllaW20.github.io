@@ -1,17 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=UnifrakturMaguntia&display=swap');
-:root{
-    --main-color: white;
-    --heading-color: white;
-    --font-body: 'Didact Gothic', sans-serif;
-    --font-heading: 'Emilys Candy', cursive;
-{
+
+:root {
+  --main-color: white;
+  --heading-color: #4b2e2e;
+  --font-body: 'IBM Plex Serif', serif;
+  --font-heading: 'UnifrakturMaguntia', cursive;
+}
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'IBM Plex Serif', serif;
+  font-family: var(--font-body);
   line-height: 1.6;
   background-color: #f7f4f0;
   color: #2c2c2c;
@@ -19,25 +22,28 @@ body {
 }
 
 h1, h2, h3 {
-  font-family: 'UnifrakturMaguntia', cursive;
-  color: #4b2e2e;
+  font-family: var(--font-heading);
+  color: var(--heading-color);
 }
 
 h2 {
   font-size: 2rem;
   margin-bottom: 0.5em;
+  text-align: center;
 }
 
 h3 {
   font-size: 1.3rem;
   margin-bottom: 1em;
+  text-align: center;
 }
 
 a {
   text-decoration: none;
   color: #6a4b3c;
-  margin-right: 15px;
+  margin: 5px;
   transition: color 0.3s;
+  display: inline-block;
 }
 
 a:hover {
@@ -46,6 +52,7 @@ a:hover {
 
 nav {
   margin: 20px 0;
+  text-align: center;
 }
 
 .container-fluid {
@@ -58,6 +65,7 @@ nav {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
   gap: 20px;
   margin-bottom: 20px;
 }
@@ -72,6 +80,7 @@ img {
 
 section {
   margin: 40px 0;
+  padding: 0 10px;
 }
 
 section#products h3 {
@@ -85,18 +94,33 @@ footer {
   text-align: center;
 }
 
-/* Responsive adjustments */
+
 @media (max-width: 768px) {
-  .row {
-    flex-direction: column;
-    text-align: center;
+  body {
+    padding: 10px;
   }
 
   nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .row {
+    flex-direction: column;
     text-align: center;
   }
 
   img {
     max-width: 100%;
   }
+
+  h2, h3, p {
+    text-align: center;
+  }
+
+  a {
+    margin: 10px 0;
+  }
 }
+
